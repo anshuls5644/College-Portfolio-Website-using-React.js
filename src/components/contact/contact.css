@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact {
+  background-color: #161e31;
+}
+.contact-item {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.map {
+  padding: 4rem;
+  height: 5rem;
+}
+.contact-form {
+  display: block;
+
+}
+
+
+.form-head {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.field-head {
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  padding-top: 0.5rem;
+}
+
+.field {
+  background-color: #f8b179;
+  font-family: "Poppins", sans-serif;
+
+  width: 372px;
+  height: 73px;
+}
+.field-message {
+  background-color: #f8b179;
+  width: 100%;
+  height: 215px;
+}
+
+.button-send {
+  background-color: #f8b179;
+  height: 52px;
+  width: 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: block;
+  margin-top: 2rem;
+}
+.map {
+  width: 650px;
+  height: 650px;
+  padding: 2rem;
+  border: none;
+}

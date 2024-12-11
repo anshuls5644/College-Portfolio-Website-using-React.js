@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.placement {
+    background-color: #161e31;
+    align-items: center;
+}
+
+.head-p {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.images-p1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+    padding-bottom: 10rem;
+}
+
+.images-p2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+
+
+}
+.intro-p1 {
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+.intro-p2 {
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+
+}

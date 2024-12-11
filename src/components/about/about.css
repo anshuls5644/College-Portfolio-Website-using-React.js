@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  background-color: #161e31;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+ 
+}
+
+.section img {
+  height: 40rem;
+  padding-right: 6rem;
+}
+
+.section h1 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  padding-top: 4rem;
+  padding-left: 5rem;
+  font-size: 48px;
+}
+
+.section p {
+  text-align: justify;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-top: 3rem;
+  padding-right: 10rem;
+  line-height: 191%;
+  letter-spacing: 16%;
+  padding-left: 5rem;
+}
+
+.img {
+  padding-top: 4rem;
+}
+
+.separator-1 {
+  height: 8px;
+  background-color: #F8B179;
+  border: none;
+  width: 10%;
+}
+
+/* Mobile Styles */
+@media (max-width: 599px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section img {
+    height: 20rem;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .section h1 {
+    padding-top: 2rem;
+    padding-left: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .section p {
+    padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) and (max-width: 991px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .section img {
+    height: 30rem;
+    padding-right: 0;
+    width: 80%;
+  }
+
+  .section h1 {
+    padding-top: 3rem;
+    padding-left: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .section p {
+    padding-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+  .section {
+    flex-direction: row;
+  }
+
+  .section img {
+    height: 40rem;
+    padding-right: 6rem;
+    width: auto;
+  }
+
+  .section h1 {
+    padding-top: 4rem;
+    padding-left: 5rem;
+    font-size: 48px;
+    text-align: left;
+  }
+
+  .section p {
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    font-size: 18px;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mission {
+  background-color: #161e31;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+
+  align-items: center;
+}
+.head {
+  font-size: 48px;
+  position: relative;
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.info {
+  align-items: center;
+  color: white;
+  position: relative;
+  letter-spacing: 8%;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+

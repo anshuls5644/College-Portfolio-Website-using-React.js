@@ -1,0 +1,124 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  z-index: 999;
+  position: absolute;
+  transition: 0.5s ease;
+}
+
+.navbar {
+  background: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5rem;
+}
+
+.Logo {
+  padding-left: 5rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 599px) {
+  .navdiv {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo a {
+    font-size: 28px;
+  }
+
+  li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  li a {
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  .Logo {
+    padding-left: 1rem;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) and (max-width: 991px) {
+  .navdiv {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo a {
+    font-size: 30px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+
+  li a {
+    font-size: 17px;
+    margin-right: 2rem;
+  }
+
+  .Logo {
+    padding-left: 3rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+  .navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo a {
+    font-size: 35px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    font-size: 18px;
+    margin-right: 5rem;
+  }
+
+  .Logo {
+    padding-left: 5rem;
+  }
+}

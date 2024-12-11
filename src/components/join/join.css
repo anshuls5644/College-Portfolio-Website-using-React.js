@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0em;
+}
+
+.join {
+  font-size: 48px;
+  color: white;
+  background-color: #161e31;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.txt {
+  font-size: 40px;
+  padding: 3rem;
+  color: white;
+  align-items: center;
+}
+
+.infoo {
+  font-size: 30px;
+  padding: 3rem;
+  color: white;
+  align-items: center;
+}
+
+.btnn {
+    height: 60px;
+    width: 500px;
+    background: #F8B179;
+    font-size: 39px;
+    font-family: "Poppins", sans-serif;
+
+}
+

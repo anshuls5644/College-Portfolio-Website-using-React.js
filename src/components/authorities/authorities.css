@@ -1,0 +1,106 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.autho {
+  background-color: #161e31;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container-cc {
+  perspective: 1000px;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 0.6s;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+
+  place-items: center;
+}
+.names {
+	font-size: 5rem;
+}
+
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  background: #f8b179;
+  transform: rotateY(180deg);
+}
+.back p {
+  text-align: center;
+  font-family: arial;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0 25px;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 0.5 rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.name-auth {
+	justify-content: space-evenly;
+	display: flex;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.separator {
+  height: 8px;
+  background-color: #f8b179;
+  height: 7px;
+  border: none;
+  width: 10%;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    perspective: 1px;
+    transform: none;
+  }
+  .container .back {
+    z-index: 2;
+    opacity: 0;
+    transition-duration: 0.6s;
+    transform: none;
+  }
+  .container .card:focus,
+  .container .card:focus-within,
+  .container .card:hover {
+    transform: none;
+  }
+  .container .card:focus .back,
+  .container .card:focus-within .back,
+  .container .card:hover .back {
+    opacity: 1;
+    transform: none;
+  }
+}

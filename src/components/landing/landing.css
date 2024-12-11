@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-img {
+  position: relative;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.banner {
+  position: absolute;
+  width: 30%;
+  top: 20rem;
+  left: 80rem;
+}
+
+.head-1, .head-2 {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  position: absolute;
+  left: 8rem;
+}
+
+.head-1 {
+  font-size: 7rem;
+  bottom: 17rem;
+}
+
+.head-2 {
+  font-size: 7rem;
+  bottom: 10px;
+}
+
+.button {
+  position: absolute;
+  border: none;
+  background-color: #F8B179;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  height: 3rem;
+  width: 13rem;
+  top: 60rem;
+  left: 8.5rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 599px) {
+  .head-1, .head-2 {
+    font-size: 2rem;
+    left: 1rem;
+  }
+
+  .banner {
+    width: 70%;
+    top: 15rem;
+    left: 2rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    top: 30rem;
+    left: 1rem;
+    height: 2rem;
+    width: 8rem;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) and (max-width: 991px) {
+  .head-1, .head-2 {
+    font-size: 4rem;
+    left: 2rem;
+  }
+
+  .banner {
+    width: 50%;
+    top: 20rem;
+    left: 10rem;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    top: 40rem;
+    left: 3rem;
+    height: 2.5rem;
+    width: 10rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+  .head-1 {
+    font-size: 7rem;
+    bottom: 10rem;
+  }
+
+  .head-2 {
+    font-size: 7rem;
+    bottom: 9px;
+  }
+
+  .banner {
+    width: 30%;
+    top: 29.5rem;
+    left: 80rem;
+  }
+
+  .button {
+    font-size: 150%;
+    top: 60rem;
+    left: 8.5rem;
+    height: 3rem;
+    width: 13rem;
+  }
+}
